@@ -8,7 +8,6 @@ class Alphabet
     {
         char al;
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter a Character : ");
         al = scan.next().charAt(0);
         if((al>='a' && al<='z') || (al>='A' && al<='Z'))
         {
